@@ -12,9 +12,10 @@ header {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    min-width: 300px;
+    width: 300px;
     flex-direction: column;
     flex-grow: 1;
+    flex-shrink: 0;
 }
 
 .articles-list {
