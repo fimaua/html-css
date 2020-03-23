@@ -8,7 +8,6 @@ header {
 }
 
 .article {
-    display: flex;
     margin: 8px;
     padding: 16px;
     background-color: bisque;
