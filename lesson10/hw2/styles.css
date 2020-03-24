@@ -7,8 +7,9 @@ header>h1 {
 }
 
 .article {
-    margin: 8px;
+    flex: 300px 1 0;
     padding: 16px;
+    margin: 8px;
     background-color: bisque;
     width: 300px;
     flex-direction: column;
