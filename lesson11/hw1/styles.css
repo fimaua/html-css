@@ -1,11 +1,11 @@
-.main-text {
+.tooltip-text {
     margin: 16px;
     border-bottom: 1px dotted black;
     position: relative;
     display: inline-block;
 }
 
-.main-tooltip {
+.tooltip {
     background-color: gray;
     border-radius: 4px;
     padding: 8px;
