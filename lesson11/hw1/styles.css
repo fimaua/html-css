@@ -2,18 +2,15 @@
     margin: 16px;
     border-bottom: 1px dotted black;
     position: relative;
-    display: flex;
+    display: inline-block;
 }
 
 .main-tooltip {
     background-color: gray;
     border-radius: 4px;
     padding: 8px;
+    left: 0px;
     bottom: -40px;
     position: absolute;
-}
-
-.main {
-    display: flex;
-    flex-grow: 0;
+    color: white;
 }
