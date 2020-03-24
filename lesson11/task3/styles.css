@@ -1,4 +1,4 @@
-.menu-button:hover {
+.dropdown:hover {
     opacity: 1;
     cursor: pointer;
 }
@@ -7,22 +7,15 @@
     display: block;
 }
 
-.menu-button {
+.dropdown {
+    margin: 16px;
+    position: relative;
     padding: 16px;
     background-color: darkgreen;
     opacity: 0.8;
     color: white;
     font-size: 16px;
-}
-
-body {
-    display: flex;
-}
-
-.dropdown {
-    top: 16px;
-    margin: 16px;
-    position: relative;
+    display: inline-block;
 }
 
 .menu-list {
@@ -34,7 +27,8 @@ body {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 34px;
+    top: 50px;
+    left: 0;
     display: none;
 }
 
