@@ -1,5 +1,6 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 0;
 }
 
 h1 {
@@ -9,6 +10,7 @@ h1 {
     text-overflow: ellipsis;
     width: 50%;
     margin: 16px auto;
+    line-height: 1.15;
 }
 
 div {
