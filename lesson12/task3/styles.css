@@ -9,7 +9,7 @@
 }
 
 .third {
-    text-decoration: green underline;
+    text-decoration: underline green
 }
 
 .second {
@@ -17,5 +17,5 @@
 }
 
 .first {
-    text-decoration: red overline;
+    text-decoration: overline red;
 }
