@@ -33,3 +33,11 @@ tbody>tr:hover {
 thead {
     background-color: aqua;
 }
+
+tfoot {
+    font-weight: 700;
+}
+
+caption {
+    margin-bottom: 8px;
+}
