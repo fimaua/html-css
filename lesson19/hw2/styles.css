@@ -1,38 +1,26 @@
-* {
-    box-sizing: border-box;
-}
-
-.block {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: white;
-    text-transform: uppercase;
-    text-align: center;
-    width: 200px;
-    height: 100px;
-    line-height: 100px;
-    border-radius: 10px;
-    background-color: coral;
-    border: none;
-    animation: move 2s;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
-    position: absolute;
-}
-
-.container {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-}
-
-@keyframes move {
+@keyframes drop {
     from {
         top: -100px;
     }
     to {
         top: calc(50vh - 50px);
     }
+}
+
+div {
+    position: relative;
+    left: calc(50vw - 100px);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: coral;
+    animation: drop 2s ease forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
 }
