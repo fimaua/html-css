@@ -31,7 +31,7 @@ body {
 .navigation,
 .section,
 .news {
-    padding: 0 0.5em;
+    margin: 0.5em;
 }
 
 .navigation {
@@ -44,14 +44,16 @@ body {
 }
 
 .nav-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
     background-color: #808080;
     color: white;
     height: 2em;
-    margin-bottom: 0.5em;
 }
 
 .nav-list-link {
-    display: block;
+    width: 100%;
     text-decoration: none;
     padding: 0.5em;
     color: white;
