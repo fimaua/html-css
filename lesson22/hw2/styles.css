@@ -29,7 +29,7 @@ body {
 .navigation,
 .section,
 .news {
-    padding: 0.5em;
+    margin: 0.5em;
 }
 
 .nav-list {
