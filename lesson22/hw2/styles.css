@@ -30,6 +30,9 @@ body {
 .section,
 .news {
     padding: 0.5em;
+}
+
+.navigation {
     display: flex;
     flex-direction: column;
 }
