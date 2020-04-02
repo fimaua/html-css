@@ -33,11 +33,6 @@ html {
     padding: 0.5em;
 }
 
-.navigation {
-    display: flex;
-    flex-direction: column;
-}
-
 .nav-list {
     list-style-type: none;
     padding: 0;
