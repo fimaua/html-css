@@ -8,11 +8,10 @@ html {
     color: #555;
 }
 
-
-/* body {
+body {
     height: 100vh;
     width: 100vw;
-} */
+}
 
 .header {
     display: flex;
