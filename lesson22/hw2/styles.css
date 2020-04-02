@@ -44,12 +44,12 @@ body {
     background-color: #808080;
     color: white;
     height: 2em;
+    width: 100%;
 }
 
 .nav-list-link {
-    width: 100%;
     text-decoration: none;
-    padding: 0.5em;
+    padding: 0 0.5em;
     color: white;
     overflow: hidden;
     white-space: nowrap;
@@ -96,9 +96,6 @@ img {
     .info-section {
         display: flex;
     }
-    .nav-list-item {
-        width: calc(100vw/3)
-    }
 }
 
 @media screen and (min-width: 900px) {
@@ -107,12 +104,8 @@ img {
         height: 100vh;
     }
     .navigation,
-    .news,
-    {
+    .news {
         width: 20vw;
-    }
-    .nav-list-item {
-        width: 100%;
     }
     .section {
         width: 60vw;
