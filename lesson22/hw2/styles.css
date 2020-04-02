@@ -3,14 +3,15 @@
 }
 
 html {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     font-size: 16px;
     color: #555;
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .header {
