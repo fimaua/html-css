@@ -28,8 +28,13 @@ nav {
 }
 .menu__item_active {
   position: relative;
+  color: yellow;
+}
+.menu__item_active:hover > .submenu {
+  visibility: visible;
 }
 .menu__item .submenu {
+  visibility: hidden;
   position: absolute;
   top: 48px;
   background-color: #ff7f50;
