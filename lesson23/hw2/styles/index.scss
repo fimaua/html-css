@@ -1,0 +1,29 @@
+    @import "layout.scss";
+    * {
+        box-sizing: border-box;
+        text-transform: lowercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    @include small {
+        .container {
+            &-products {
+                display: flex;
+            }
+        }
+    }
+    
+    @include medium {
+        .container {
+            display: flex;
+        }
+        .container {
+            &-products,
+            &-news {
+                &-navigation,
+                &-list {
+                    width: calc(100vw/3);
+                }
+            }
+        }
+    }
