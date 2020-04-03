@@ -24,11 +24,15 @@ nav {
             background-color: #9acd32;
             color: yellow;
         }
-        &-text {}
         &_active {
             position: relative;
+            color: yellow;
+            &:hover>.submenu {
+                visibility: visible;
+            }
         }
         .submenu {
+            visibility: hidden;
             position: absolute;
             top: 48px;
             background-color: #ff7f50;
